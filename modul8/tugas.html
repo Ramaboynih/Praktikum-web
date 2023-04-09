@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Penentuan Nilai</title>
+</head>
+
+<body>
+    <h3>Penentuan Nilai</h3>
+    <label for="nilai">Masukkan nilai:</label>
+    <input type="number" id="nilai" name="nilai">
+    <button onclick="hitung()">Hitung</button>
+    <p>Hasil: <span id="hasil"></span></p>
+
+    <script>
+        function hitung() {
+            let nilai = document.getElementById("nilai").value;
+            let hasil = document.getElementById("hasil");
+
+            if (nilai >= 0 && nilai <= 20) {
+                hasil.innerHTML = "E";
+            } else if (nilai >= 21 && nilai <= 40) {
+                hasil.innerHTML = "D";
+            } else if (nilai >= 41 && nilai <= 60) {
+                hasil.innerHTML = "C";
+            } else if (nilai >= 61 && nilai <= 80) {
+                hasil.innerHTML = "B";
+            } else if (nilai >= 81 && nilai <= 100) {
+                hasil.innerHTML = "A";
+            } else {
+                hasil.innerHTML = "Nilai yang dimasukkan tidak valid.";
+            }
+        }
+    </script>
+</body>
+
+</html>

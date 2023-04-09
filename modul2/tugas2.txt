@@ -1,0 +1,14 @@
+1. hyperlink menuju halaman2.html
+2. hyperlink menuju halaman google.com
+3. hyperlink menuju bagian referensi
+4. target membuka  hyperlink pada tab baru
+5. jenis input berupa checkbox
+6. variabel "nama" dengan value "ceksing"
+7. jenis input berupa text
+8. id dengan value "txtKota"
+9. panjang maksimal dari value sejumlah 20
+10. tag yang berisi area untuk text
+11. membatasi lebar kolom sebesar 20
+12. mencegah pemecahan baris otomatis (automatic line break) terhadap posisinya.
+13. tag untuk animasi teks berjalan
+12. tag membuat teks berkedip
